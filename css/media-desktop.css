@@ -1,0 +1,29 @@
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .our-team-container {
+    padding: 0 16px;
+  }
+
+  .our-team-list {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .our-portfolio-list {
+    gap: 48px 24px;
+  }
+
+  .our-portf-list-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+}

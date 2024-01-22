@@ -22,8 +22,10 @@ h6 {
 }
 
 .container {
-  max-width: 1158px;
-  padding: 0 15px;
+  /* max-width: 1158px;
+  padding: 0 15px; */
+  max-width: 320px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 
@@ -37,8 +39,10 @@ a {
   text-decoration: none;
 }
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .visually-hidden {
@@ -268,6 +272,7 @@ textarea {
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 0px 28px;
 }
 
 .our-team {
@@ -278,14 +283,16 @@ textarea {
 
 .our-team-list {
   display: flex;
+  flex-direction: column;
   flex-shrink: 0;
-  gap: 24px;
+  /* gap: 24px; */
+  gap: 72px;
 }
 
 .our-team-list-item {
   display: flex;
   flex-direction: column;
-  flex-basis: calc((100% - 72px) / 4);
+  /* flex-basis: calc((100% - 72px) / 4); */
   margin: 0 auto;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -375,16 +382,14 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 48px 24px;
+  /* gap: 48px 24px; */
+  gap: 48px;
 }
 
 .our-portf-list-item {
-  flex-basis: calc((100% - 48px) / 3);
+  /* flex-basis: calc((100% - 48px) / 3); */
   position: relative;
   overflow: hidden;
-  /* transition-property: border, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -426,7 +431,7 @@ textarea {
 .our-portf-list-item:hover .overlay {
   transform: translatey(0);
 }
-.our-portf-list-item:hover /*.div-for-border-portf*/ {
+.our-portf-list-item:hover {
   border-top: none;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),

@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .our-team-container {
+    padding: 0px 108px;
+  }
+
+  .our-team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+  }
+  .our-team-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .our-portfolio-list {
+    gap: 72px 24px;
+  }
+
+  .our-portf-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+}
