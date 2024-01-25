@@ -3,6 +3,33 @@
     max-width: 768px;
   }
 
+  .hero-title {
+    font-size: 56px;
+    letter-spacing: 1.12px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+    padding: 0px;
+  }
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-backimg-tab.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-backimg-tab-2x.jpg);
+    }
+  }
   .features-list {
     display: flex;
     flex-direction: row;
