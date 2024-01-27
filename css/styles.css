@@ -80,6 +80,7 @@ textarea {
 }
 .header-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -91,110 +92,33 @@ textarea {
   line-height: 1.17;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
+  /* margin-right: 76px; */
   flex-grow: 1;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  /* padding-top: 25.5px;
+  padding-bottom: 25.5px; */
+  padding-top: 17px;
+  padding-bottom: 17px;
 }
 .logo-special {
   color: #2e2f42;
 }
-
-.nav-header {
-  display: inline-flex;
-
-  align-items: center;
-}
-.nav-list-item {
-  display: inline-block;
-  color: #2e2f42;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .nav-list {
   display: none;
-  /* display: flex; */
-  align-items: center;
-  gap: 40px;
-  flex-grow: 2;
+}
+.contacts {
+  display: none;
 }
 
-/* .header-mob {
-  display: flex;
-  align-items: center;
-} */
-
 .mob-menu-btn {
-  display: block;
-  width: 24px;
-  height: 24px;
   border: none;
+  line-height: 0;
   background-color: transparent;
-  margin-right: auto;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  margin-bottom: 0px;
+  cursor: pointer;
 }
 
 .mob-menu-btn-svg {
   width: 24px;
   height: 24px;
-}
-
-.contacts {
-  font-style: normal;
-  /* display: flex; */
-  display: none;
-}
-
-.contacts-item-list {
-  display: flex;
-  align-items: flex-end;
-  gap: 40px;
-  flex-grow: 1;
-}
-
-.contacts-item {
-  display: inline-block;
-  color: #434455;
-  letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.nav-list-item:hover,
-.contacts-item:hover {
-  color: #404bbf;
-}
-.nav-list-item:focus,
-.contacts-item:focus {
-  color: #404bbf;
-}
-.nav-list-item:active {
-  color: #404bbf;
-}
-
-.current {
-  color: #404bbf;
-  position: relative;
-  /* transition-property: transform, background-color, color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.current::after {
-  content: '';
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #404bbf;
-  position: absolute;
-  bottom: -1px;
-  left: 0;
 }
 
 .hero {
