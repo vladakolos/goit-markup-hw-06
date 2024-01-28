@@ -114,6 +114,11 @@
     bottom: -1px;
     left: 0;
   }
+
+  .modal-mob-menu {
+    display: none;
+  }
+
   .features-list {
     display: flex;
     flex-direction: row;
@@ -153,5 +158,36 @@
   .modal {
     width: 408px;
     height: 584px;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    gap: 72px 24px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 0px 108px;
+  }
+  .div-footer-for-calc {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .subscribe-form {
+    flex-direction: row;
+  }
+
+  .footer-logo {
+    text-align: start;
+  }
+  .footer-social {
+    align-items: flex-start;
+  }
+  .subscribe-input-and-btn {
+    align-items: flex-start;
+  }
+  .submit-btn {
+    min-width: 165px;
+    margin: 0;
+  }
+  .subscribe-form {
+    gap: 24px;
   }
 }

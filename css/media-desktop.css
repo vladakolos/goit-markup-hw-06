@@ -70,6 +70,10 @@
     margin-right: 76px;
     flex-grow: unset;
   }
+
+  .modal-mob-menu {
+    display: none;
+  }
   .feature-svg-div {
     display: flex;
     border-radius: 4px;
@@ -118,5 +122,38 @@
 
   .our-portf-list-item {
     flex-basis: calc((100% - 48px) / 3);
+  }
+
+  .footer-container {
+    flex-direction: row;
+    gap: 0;
+    align-items: baseline;
+    flex-wrap: nowrap;
+  }
+  .div-footer-for-calc {
+    flex-basis: none;
+  }
+  .subscribe-form {
+    flex-direction: row;
+  }
+  .footer-logo-container {
+    margin-right: 120px;
+  }
+  .footer-logo {
+    text-align: start;
+  }
+  .footer-social {
+    margin-right: 80px;
+    align-items: flex-start;
+  }
+  .subscribe-input-and-btn {
+    align-items: flex-start;
+  }
+  .submit-btn {
+    min-width: 165px;
+    margin: 0;
+  }
+  .subscribe-form {
+    gap: 24px;
   }
 }
