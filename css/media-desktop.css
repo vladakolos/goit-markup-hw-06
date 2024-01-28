@@ -131,7 +131,7 @@
     flex-wrap: nowrap;
   }
   .div-footer-for-calc {
-    flex-basis: none;
+    flex-basis: auto;
   }
   .subscribe-form {
     flex-direction: row;
