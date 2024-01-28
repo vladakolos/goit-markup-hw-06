@@ -25,8 +25,8 @@
             <nav class="nav-header">
                 <ul class="nav-list">
                     <li> <a class="nav-list-item current" href="./index.html">Studio</a> </li>
-                    <li> <a class="nav-list-item" href="">Portfolio</a> </li>
-                    <li> <a class="nav-list-item" href="">Contacts</a> </li>
+                    <li> <a class="nav-list-item" href="#portfolio">Portfolio</a> </li>
+                    <li> <a class="nav-list-item" href="#contacts">Contacts</a> </li>
                 </ul>
             </nav>
             <address class="contacts">
@@ -52,8 +52,9 @@
                 <nav class="mob-modal-nav">
                     <ul class="mob-modal-nav-list">
                         <li class="mob-modal-nav-item"><a href="./index.html" class="mob-modal-nav-link">Studio</a></li>
-                        <li class="mob-modal-nav-item"><a href="" class="mob-modal-nav-link">Portfolio</a></li>
-                        <li class="mob-modal-nav-item"><a href="" class="mob-modal-nav-link">Contacts</a></li>
+                        <li class="mob-modal-nav-item"><a href="#portfolio" class="mob-modal-nav-link">Portfolio</a>
+                        </li>
+                        <li class="mob-modal-nav-item"><a href="#contacts" class="mob-modal-nav-link">Contacts</a></li>
                     </ul>
                 </nav>
                 <address class="contacts-modal-mob">
@@ -171,8 +172,12 @@
                 <h2 class="our-team-title">Our Team</h2>
                 <ul class="our-team-list">
                     <li class="our-team-list-item">
-                        <img class="our-team-photo" src="./images/photo-mark-guerrero.jpg" alt="photo-mark-guerrero"
-                            width="264" height="260">
+                        <picture>
+                            <source
+                                srcset="./images/photo-mark-guerrero.jpg 1x, ./images/photo-mark-guerrero-2x.jpg 2x" />
+                            <img class="our-team-photo" src="./images/photo-mark-guerrero.jpg" alt="photo-mark-guerrero"
+                                width="264" height="260">
+                        </picture>
                         <div class="div-border-ourteam">
                             <h3 class="our-team-list-title">Mark Guerrero</h3>
                             <p class="our-team-list-text">Product Designer</p>
@@ -210,8 +215,11 @@
                         </div>
                     </li>
                     <li class="our-team-list-item">
-                        <img class="our-team-photo" src="./images/photo-tom-ford.jpg" alt="photo-tom-ford" width="264"
-                            height="260">
+                        <picture>
+                            <source srcset="./images/photo-tom-ford.jpg 1x, ./images/photo-tom-ford-2x.jpg 2x" />
+                            <img class="our-team-photo" src="./images/photo-tom-ford.jpg" alt="photo-tom-ford"
+                                width="264" height="260">
+                        </picture>
                         <div class="div-border-ourteam">
                             <h3 class="our-team-list-title">Tom Ford</h3>
                             <p class="our-team-list-text">Frontend Developer</p>
@@ -248,8 +256,12 @@
                         </div>
                     </li>
                     <li class="our-team-list-item">
-                        <img class="our-team-photo" src="./images/photo-camila-garcia.jpg" alt="photo-camila-garcia"
-                            width="264" height="260">
+                        <picture>
+                            <source
+                                srcset="./images/photo-camila-garcia.jpg1x, ./images/photo-camila-garcia-2x.jpg 2x" />
+                            <img class="our-team-photo" src="./images/photo-camila-garcia.jpg" alt="photo-camila-garcia"
+                                width="264" height="260">
+                        </picture>
                         <div class="div-border-ourteam">
                             <h3 class="our-team-list-title">Camila Garcia</h3>
                             <p class="our-team-list-text">Marketing</p>
@@ -286,8 +298,12 @@
                         </div>
                     </li>
                     <li class="our-team-list-item">
-                        <img class="our-team-photo" src="./images/photo-daniel-wilson.jpg" alt="photo-daniel-wilson"
-                            width="264" height="260">
+                        <picture>
+                            <source
+                                srcset="./images/photo-daniel-wilson.jpg 1x, ./images/photo-daniel-wilson-2x.jpg 2x" />
+                            <img class="our-team-photo" src="./images/photo-daniel-wilson.jpg" alt="photo-daniel-wilson"
+                                width="264" height="260">
+                        </picture>
                         <div class="div-border-ourteam">
                             <h3 class="our-team-list-title">Daniel Wilson</h3>
                             <p class="our-team-list-text">UI Designer</p>
@@ -326,14 +342,17 @@
                 </ul>
             </div>
         </section>
-        <section class="section our-portfolio">
+        <section class="section our-portfolio" id="portfolio">
             <div class="container our-portfolio-container">
                 <h2 class="our-portfolio-title">Our Portfolio</h2>
                 <ul class="our-portfolio-list">
                     <li class="our-portf-list-item">
                         <div class="overlay-box">
-                            <img class="our-portf-photo photo-with-overlay" src="./images/portfolio-img-1.jpg"
-                                alt="Banking App" width="360" height="300">
+                            <picture>
+                                <source srcset="./images/portfolio-img-1.jpg1x, ./images/portfolio-img-1-2x.jpg 2x" />
+                                <img class="our-portf-photo " src="./images/portfolio-img-1.jpg" alt="Banking App"
+                                    width="360" height="300">
+                            </picture>
                             <p class="overlay-text overlay">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie
                                 Tracker App
@@ -348,8 +367,11 @@
                     </li>
                     <li class="our-portf-list-item">
                         <div class="overlay-box">
-                            <img class="our-portf-photo" src="./images/portfolio-img-2.jpg" alt="Cashless Payment"
-                                width="360" height="300">
+                            <picture>
+                                <source srcset="./images/portfolio-img-2.jpg1x, ./images/portfolio-img-2-2x.jpg 2x" />
+                                <img class="our-portf-photo" src="./images/portfolio-img-2.jpg" alt="Cashless Payment"
+                                    width="360" height="300">
+                            </picture>
                             <p class="overlay-text overlay">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie
                                 Tracker App
@@ -363,8 +385,11 @@
                     </li>
                     <li class="our-portf-list-item">
                         <div class="overlay-box">
-                            <img class="our-portf-photo" src="./images/portfolio-img-3.jpg" alt="Meditation App"
-                                width="360" height="300">
+                            <picture>
+                                <source srcset="./images/portfolio-img-3.jpg1x, ./images/portfolio-img-3-2x.jpg 2x" />
+                                <img class="our-portf-photo" src="./images/portfolio-img-3.jpg" alt="Meditation App"
+                                    width="360" height="300">
+                            </picture>
                             <p class="overlay-text overlay">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie
                                 Tracker App
@@ -378,8 +403,11 @@
                     </li>
                     <li class="our-portf-list-item">
                         <div class="overlay-box">
-                            <img class="our-portf-photo" src="./images/portfolio-img-4.jpg" alt="Taxi Service"
-                                width="360" height="300">
+                            <picture>
+                                <source srcset="./images/portfolio-img-4.jpg1x, ./images/portfolio-img-4-2x.jpg 2x" />
+                                <img class="our-portf-photo" src="./images/portfolio-img-4.jpg" alt="Taxi Service"
+                                    width="360" height="300">
+                            </picture>
                             <p class="overlay-text overlay">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie
                                 Tracker App
@@ -393,8 +421,11 @@
                     </li>
                     <li class="our-portf-list-item">
                         <div class="overlay-box">
-                            <img class="our-portf-photo" src="./images/portfolio-img-5.jpg" alt="Screen Illustrations"
-                                width="360" height="300">
+                            <picture>
+                                <source srcset="./images/portfolio-img-5.jpg1x, ./images/portfolio-img-5-2x.jpg 2x" />
+                                <img class="our-portf-photo" src="./images/portfolio-img-5.jpg"
+                                    alt="Screen Illustrations" width="360" height="300">
+                            </picture>
                             <p class="overlay-text overlay">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie
                                 Tracker App
@@ -408,8 +439,11 @@
                     </li>
                     <li class="our-portf-list-item">
                         <div class="overlay-box">
-                            <img class="our-portf-photo" src="./images/portfolio-img-6.jpg" alt="Online Courses"
-                                width="360" height="300">
+                            <picture>
+                                <source srcset="./images/portfolio-img-6.jpg1x, ./images/portfolio-img-6-2x.jpg 2x" />
+                                <img class="our-portf-photo" src="./images/portfolio-img-6.jpg" alt="Online Courses"
+                                    width="360" height="300">
+                            </picture>
                             <p class="overlay-text overlay">14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie
                                 Tracker App
@@ -425,7 +459,7 @@
             </div>
         </section>
     </main>
-    <footer class="footer-items">
+    <footer class="footer-items" id="contacts">
         <div class="container footer-container">
             <div class="div-footer-for-calc footer-logo-container">
                 <a href="./index.html" class="footer-logo">Web<span class="logo-special-footer">Studio</span></a>

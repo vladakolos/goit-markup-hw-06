@@ -214,11 +214,6 @@ textarea {
   visibility: hidden;
   pointer-events: none;
 }
-.is-open-mob {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
 
 .mob-modal-close-btn {
   width: 24px;
