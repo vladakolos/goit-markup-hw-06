@@ -115,6 +115,9 @@
     left: 0;
   }
 
+  .backdrop-mob-menu {
+    display: none;
+  }
   .modal-mob-menu {
     display: none;
   }
