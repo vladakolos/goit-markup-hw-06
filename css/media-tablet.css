@@ -17,6 +17,8 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-backimg-tab.jpg);
+    height: 436px;
+    padding: 112px 0px;
   }
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
