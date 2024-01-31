@@ -24,7 +24,6 @@
       ),
       url(../images/hero-backimg.jpg);
     padding: 188px 0px;
-    height: 600px;
   }
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
